@@ -1,0 +1,129 @@
+body{ background-color: #DCDCDC; }
+
+.group-titleh3{
+    color: rgb(44, 80, 97);
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-size: 140%;
+}
+
+
+.group-hr{
+    margin-top: 5px;
+    background-color: rgb(44, 80, 97);
+}
+
+.filledLike{
+    height: 16px;
+    width: 16px;
+}
+
+
+
+.userPic{
+    height: auto;
+    width: 35px;
+}
+
+.group{
+    padding: 3px;
+    width: auto;
+    display: block;
+    border: solid RGB(8, 158, 228) 2px;
+    font-family: 'Arial';
+    margin-bottom: 5px;
+    border-radius: 2px;
+    background-color: rgba(19, 132, 184,0.6);
+}
+
+.group-titleh3{
+    color: rgb(44, 80, 97);
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-size: 140%;
+}
+.group-hr{
+    margin-top: 5px;
+    background-color: rgb(44, 80, 97);
+}
+
+.group-groupName{
+    padding: 0%;
+    margin: 0;
+    font-size: 110%;
+    float: left;
+    font-weight: bold;
+    color: rgb(44, 80, 97);
+}
+
+.group-groupDate{
+    margin: 0;
+    float: right;
+    color: rgb(44, 80, 97);
+    font-style: italic;
+}
+
+.group-groupMember{
+    margin: 0;
+    clear: both;
+    font-size: 80%;
+}
+
+.group-groupDesc{
+    margin: 0;
+    padding: 1%;
+    display: block;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+
+.col-sm-6{
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.group-groupLongDesc{
+    margin: 0;
+    padding: 1%;
+    display: block;
+    text-align: justify;
+    word-wrap: break-word;
+}
+/*
+.propContent{
+    display: flex;
+    flex-direction: row;
+}
+*/
+
+
+
+.picProposition{
+    width: 20%;
+    height: auto;
+    margin: auto;
+    border-radius: 1px;
+    border: solid 2px RGB(8, 158, 228);
+}
+
+.optionField{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.optionPic{
+    height: 20px;
+    width: 20px;
+    /*transition-duration: 1s;*/
+}
+
+.emptyLikeAction:hover{
+    cursor: pointer;
+    
+}
+
+.comment:hover{
+    cursor: pointer;
+}

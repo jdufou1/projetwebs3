@@ -1,0 +1,75 @@
+/* Fichier CSS pour la page creer.php */
+
+.group-titleh3{
+    color: rgb(44, 80, 97);
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-size: 180%;
+}
+.group-hr{
+    margin-top: 5px;
+    background-color: rgb(44, 80, 97);
+}
+
+.group-formulaire{
+    margin-left: 7.5%;
+}
+
+.group-titleh2{
+    color: rgb(44, 80, 97);
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-size: 150%;
+}
+.category{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.guide{
+    margin-bottom: 0;
+    color:rgb(44, 80, 97);
+}
+
+.nonValideField{
+    /*border: solid rgb(44, 80, 97) 3px;*/
+    border-radius: 2px;
+    background-color: rgba(44, 80, 97,0.5);
+}
+.valideField{
+
+}
+
+.save{
+    color: green;
+    display: none;
+    font-style: italic;
+}
+.curentField{
+    /*border: solid rgb(44, 80, 97) 3px;*/
+    border-radius: 2px;
+    background-color: rgba(8, 158, 228,0.3);
+}
+
+.col-sm-6{
+    padding: 5px;
+
+}
+
+.finishgroupCreation{
+    margin: auto;
+    margin-top: 20px;
+}
+.categoryView {margin-top: 10px;}
+.emailView{margin-top: 10px;}
+
+/*
+input[type=text] {
+    background-color: rgba(19, 132, 184,0.6);
+
+}
+*/
+
+#form-groupCreation-1{margin-top: 10px;}
+#form-groupCreation-2{margin-top: 10px;}
+#form-groupCreation-3{margin-top: 10px;}

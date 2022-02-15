@@ -1,0 +1,58 @@
+.group{
+    padding: 3px;
+    width: auto;
+    display: block;
+    border: solid rgb(44, 80, 97) 1.5px;
+    font-family: 'Arial';
+    margin-bottom: 5px;
+    border-radius: 2px;
+    background-color: rgba(19, 132, 184,0.6);
+}
+
+.group-titleh3{
+    color: rgb(44, 80, 97);
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-size: 140%;
+}
+.group-hr{
+    margin-top: 5px;
+    background-color: rgb(44, 80, 97);
+}
+
+.group-groupName{
+    padding: 0%;
+    margin: 0;
+    font-size: 110%;
+    float: left;
+    font-weight: bold;
+}
+
+.group-groupDate{
+    margin: 0;
+    float: right;
+    color: rgb(44, 80, 97);
+    font-style: italic;
+}
+
+.group-groupMember{
+    margin: 0;
+    clear: both;
+    font-size: 80%;
+}
+
+.group-groupDesc{
+    margin: 0;
+    padding: 1%;
+    display: block;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+
+
+.group:hover{
+    cursor: pointer;
+    background-color: rgb(8, 158, 228);
+    transition-duration: 1s;
+}

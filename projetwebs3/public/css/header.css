@@ -1,0 +1,130 @@
+.profilField{
+		font-family: arial;
+		text-align: justify;
+		/*background-color: grey;*/
+        width: 100%;
+        display: flex;
+		flex-direction: row-reverse;
+		/*margin-left: 650%;*/
+        
+		
+	}
+
+	
+	.profilField-infoField{
+        width:auto;
+		margin-left: 5px;
+        display: inline-block;
+        
+		
+	}
+	
+	.profilField-infoField h4{
+		margin: 0;
+		padding: 0;
+		height: auto;
+        color: white;
+        font-size: 115%;
+		
+    }
+
+    .profilField-infoField p{
+		margin: 0;
+		padding: 0;
+		height: auto;
+        color: white;
+        font-size: 100%;
+		
+    }
+    
+
+	.profilField-profilPic{
+		
+		background-color:  rgb(8, 158, 228);
+        width:auto;
+        height: auto;
+		border-radius: 2px;
+		border: solid black 1px;
+		display: inline-block;
+		
+	}
+	
+	img{
+		/* Valeur de base*/
+		width:47px;
+		height: 69px;
+
+
+    }
+    
+    .profilField h4:hover{
+        color: rgb(8, 158, 228);
+        transition-duration: 0.5s;
+        cursor:pointer;
+	}
+
+	.searchGroupBar{
+		display: inline-block;
+		width: 80%;
+		margin-left: 3%;
+	}
+
+	.inputCo{
+		display: inline-block;
+		width: auto;
+	}
+
+	.nameUser{
+		text-transform: uppercase;
+	}
+
+	.menuNavBar{
+		display: flex;
+		flex-direction: row;
+		margin-left: 2%;
+	}
+
+	.menuNavBar a{
+		margin-right: 10px;
+
+		font-size:110%;
+		color: white;
+		width: 30%;
+		display: inline-block;
+	}
+
+	.headerhr{
+		background-color: white;
+	}
+
+	.menuNavBar a:hover{
+		color: rgb(8, 158, 228);
+		transition-duration: 1s;
+	}
+	
+/* Adapter pour les types d'affichage */
+
+@media screen and (max-width: 1000px)
+{
+	.navbar a{
+		font-size: 85px;
+	}
+	.profilField-infoField h4{
+		font-size: 50px;
+	}
+	.profilField-infoField p{
+		font-size: 30px;
+	}
+	.profilField-profilPic{
+		display: none;
+	}
+
+	.searchGroupBar{
+		margin-left: 0%;
+		
+		width: 100%;
+		font-size: 150%;
+	}
+}
+
+
